@@ -1,0 +1,21 @@
+li a{
+    text-decoration: none;
+    color: #07020d;
+    padding: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+}
+
+li a:visited {
+    color: #07020d;
+}
+
+li {
+    margin: 0 .5rem;
+}
+
+.menu-btn {
+    background-color: #ddbe40;
+    border-radius: 6px;
+}

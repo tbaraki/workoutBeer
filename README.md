@@ -4,7 +4,7 @@ A simple tool for guilt free consumption. Enter your activity details and find o
 
 ## Built With
 
-This site was built with Gatsby and React. NodeJS-based tools are way overkill for this but it was created as a learning project.
+This site was built with Gatsby and React.
 
 ## Deploy
 

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Menu from '../components/Menu.js'
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#07020d',
       marginBottom: '0',
     }}
   >
@@ -15,11 +16,13 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{
+        margin: 0,
+      }}>
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#ddbe40',
             textDecoration: 'none',
           }}
         >

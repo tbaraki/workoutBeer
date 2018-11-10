@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Menu from '../components/menu';
 
 const SecondPage = () => (
   <Layout>
-    <Menu></Menu>
-    <h1>What is this?</h1>
+    <h2>What is this?</h2>
     <p>WorkoutBeer.com was created to help keep me on track.</p>
+    <Menu></Menu>
   </Layout>
 )
 

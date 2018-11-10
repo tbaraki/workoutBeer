@@ -1,0 +1,32 @@
+p {
+    margin-bottom: 1rem;
+}
+
+input[type=select], input[type=text] {
+    background-color: #07020d;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ddbe40;
+    color: #fff;
+    padding: 0 .3rem 0 .3rem;;
+}
+
+input[type=submit] {
+    background-color: #07020d;
+    border-radius: 6px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ddbe40;
+    color: #ddbe40;
+    border-radius: 6px;
+    padding: .3rem;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #ddbe40;
+    color: #07020d;
+}
