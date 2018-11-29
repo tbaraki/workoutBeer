@@ -1,6 +1,6 @@
 li a{
     text-decoration: none;
-    color: #07020d;
+    color: #232323;
     padding: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -8,7 +8,7 @@ li a{
 }
 
 li a:visited {
-    color: #07020d;
+    color: #232323;
 }
 
 li {

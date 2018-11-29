@@ -2,7 +2,7 @@ import React from 'react'
 import '../components/form.css'
 
 const Form = () => (
-    <form>
+    <form className="form-container">
         <p>Activity:
         <select>
                 <option value="Walking">Walking</option>

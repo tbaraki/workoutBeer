@@ -1,9 +1,13 @@
-p {
-    margin-bottom: 1rem;
+.form-container {
+    display: grid;
+}
+
+.form-container p {
+    margin: 0 0 1rem 0;
 }
 
 input[type=select], input[type=text] {
-    background-color: #07020d;
+    background-color: #232323;
     border-radius: 6px;
     border-width: 2px;
     border-style: solid;
@@ -13,7 +17,7 @@ input[type=select], input[type=text] {
 }
 
 input[type=submit] {
-    background-color: #07020d;
+    background-color: #232323;
     border-radius: 6px;
     border-width: 2px;
     border-style: solid;
@@ -28,5 +32,5 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #ddbe40;
-    color: #07020d;
+    color: #232323;
 }

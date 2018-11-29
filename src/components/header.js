@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Menu from '../components/Menu.js'
+import '../components/header.css'
 
 const Header = ({ siteTitle }) => (
-  <div
+  <div className="header-container"
     style={{
-      background: '#07020d',
+      background: '#272727',
       marginBottom: '0',
     }}
   >
@@ -29,6 +30,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <p>Earn your beer.</p>
     </div>
   </div>
 )
