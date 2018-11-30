@@ -5,8 +5,8 @@ import Menu from "../components/menu"
 
 const IndexPage = () => (
   <Layout>
-    
-    <p>A simple tool for guilt-free consumption. Simply enter your activiy type, duration, and body weight to find out how much beer you deserve.</p>
+
+    <p>A simple tool for guilt-free consumption. Simply enter your activiy type, duration, and body weight to find out how much beer you deserve. Indulge at your own discretion.</p>
 
     <Form />
 

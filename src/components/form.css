@@ -1,10 +1,57 @@
 .form-container {
     display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 16% 16% 16% 16% 16% auto;
+    grid-gap: 0.25rem;
+    grid-template-areas:
+        "activity-label activity-input"
+        "duration-label duration-input"
+        "weight-label weight-input"
+        "unit-label unit-input"
+        "submit-input ."
 }
 
 .form-container p {
     margin: 0 0 1rem 0;
 }
+
+.activity-label {
+    grid-area: activity-label;
+}
+
+.activity-input {
+    grid-area: activity-input;
+}
+
+.duration-label {
+    grid-area: duration-label;
+}
+
+.duration-input {
+    grid-area: duration-input;
+}
+
+.weight-label {
+    grid-area: weight-label;
+}
+
+.weight-input {
+    grid-area: weight-input;
+}
+
+.unit-label {
+    grid-area: unit-label;
+}
+
+.unit-input {
+    grid-area: unit-input;
+}
+
+.unit-input ul {
+    list-style: none;
+    margin-left: 0;
+}
+
 
 input[type=select], input[type=text] {
     background-color: #232323;
